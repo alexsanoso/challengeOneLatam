@@ -1,0 +1,107 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: #3e3f3f;
+    background-size: cover;                                         /*ajusta la imagen al navegador*/
+    font-family: 'Gill Sans MT';
+    height: 100vh;                                      /** El alto del dispositivo "veiw height" */
+}
+
+
+.principal{
+    margin: 0 35% 0 35%;
+    background: rgb(192, 192, 192);
+    border-radius: 20px;
+}
+
+
+.titulo-principal{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+
+.texto-1{
+    font-size: 15px;
+    margin: 25px 10px 15px 30px;
+
+}
+
+#texto-encriptar{
+    background: #3e3f3f;
+    margin: auto;
+    color: white;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.div-centrar{
+    text-align: center;
+}
+
+.div-botones{
+    margin: auto;
+    text-align: center;
+}
+.boton{
+    margin: 25px 0 10px 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(100, 149, 237);
+    color: rgb(255, 255, 255);
+
+}
+
+.boton:hover{
+    background: #3e3f3f;
+}
+
+#btn-copiar{
+    margin: 25px 0 25px 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(100, 149, 237);
+    color: rgb(255, 255, 255);
+}
+
+#btn-copiar:hover{
+    background: #3e3f3f;;
+}
+
+.texto-2{
+    font-size: 15px;
+    margin: 25px 10px 15px 30px;;
+}
+
+/*caja para mostrar el texto encriptado*/
+#texto-encriptado{
+    background: #3e3f3f;
+    margin: auto;
+    color: white;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.texto-3{
+
+    display: inline-block;
+    font-size: 13px;
+    margin: 0px 0 5px 50px;
+
+}
+.texto-4{
+    padding-bottom: 20px;
+    font-size: 13px;
+    margin: 0 20px 0px 50px;
+
+}
