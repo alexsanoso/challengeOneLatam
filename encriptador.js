@@ -1,7 +1,19 @@
+/*
+Llaves de encriptación
+a: ai
+e: enter
+i: imes
+o: ober
+u: ufat
+Solo minúsculas, sin acentos
+*/
+
+
 //Funcion para el botón encriptar
 $("#btn-encriptar").click(function () {
     convertir();
 })
+
 
 //Función para encriptar un texto
 function convertir() {
@@ -15,8 +27,6 @@ function convertir() {
     if (!regexp.exec(textoEncriptar)) {
         alert("¡ERROR!, Solo se aceptan letras minúsculas.")
     } else {
-
-
 
         for (var i = 0; i < dividir.length; i++) {
             //console.log(dividir[i]);
@@ -49,5 +59,4 @@ function convertir() {
 
         $("#texto-encriptado").val(resultado);
     }
-
 }
